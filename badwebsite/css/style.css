@@ -1,0 +1,28 @@
+body {
+    background-color: lime;
+    font-family: "Comic Sans MS";
+    color: magenta;
+    text-align: center;
+    padding: 10px;
+}
+  
+#DumpImg {
+    height: 50vh;
+    width:  auto;
+    
+}
+  
+.TitleDiv {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 40px;
+    border: 5px dotted blue;
+    margin: 30px;
+    padding: 20px;
+}
+  
+.highlightMess {
+    background-color:lightblue;
+    font-style: italic;
+}
+  
