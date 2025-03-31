@@ -1,0 +1,46 @@
+body {
+    font-size: 18px;
+    background-color: #f8f8f8;
+    
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    
+}
+
+.description {
+    margin-bottom: 50px;
+}
+
+.artwork {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.503);
+}
+
+.artwork h2 {
+    margin-top: 0;
+}
+
+
+.image{
+    width:100%; 
+    border-radius:10px; 
+    margin: 10px 0;
+}
