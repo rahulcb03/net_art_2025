@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle, #42d1e4 0%, #418af6 100%);
+    overflow: hidden;
+    
+}
+
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: ripple-anmation 1.5s;
+    background: radial-gradient(circle, rgb(60, 95, 251) 5%,  rgba(0, 26, 255, 0.746) 80%);
+    box-shadow: 0 0 20px rgba(1, 4, 79, 0.542);
+}
+  
+@keyframes ripple-anmation {
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0;
+    }
+}
+
+
+h1 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Georgia';
+    color: #000000;
+    font-size: 50px;
+
+}
+
+.hint {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    
+}
