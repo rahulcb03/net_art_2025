@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    color: white; 
+    background: url('../images/cave.jpg') center center/cover no-repeat;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    size: 30px;
+    z-index: 10;
+}
+
+  
+#blackout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    mask-image: radial-gradient(circle 0px at 0 0, transparent 0%, black 0%);
+    transition: mask-image 0.1s
+}
+
+.path-button{
+    position:absolute;
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    background: transparent;
+    border: 0; 
+    
+}
+.path-button:hover{
+    cursor: pointer;
+    border: 2px, solid, white;
+}
+
+#left{
+    left: 5%;
+    top: 50%;
+}
+
+#right{
+    right: 10%; 
+    top: 50%; 
+}
+
+
+  
+  
+  

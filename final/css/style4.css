@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(rgb(248, 106, 45), rgb(157, 51, 5));
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title{
+    color: white;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+
+}  
+
+#bubble{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient( rgb(209, 37, 5), 90%,  black);
+    border-radius: 50%;
+
+    box-shadow: 0px 10px 30px red;
+    animation: rise 6s linear;
+
+}
+
+@keyframes rise {
+    0% {
+        transform: translateY(0) scale(0.3);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateY(-800px) scale(1.5);
+        opacity: 0.2;
+    }
+}

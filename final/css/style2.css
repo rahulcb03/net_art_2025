@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    background-color: rgb(119, 44, 9);
+}
+.title{
+    width: 100%;
+    text-align: center;
+    size: 30px;
+    z-index: 10;
+}
+a{
+    color: aliceblue;
+}
+
+.scene{
+    width: 100%;
+}
+.bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none
+}
+  
+.bubble {
+    position: absolute;
+    background: rgb(209, 37, 5);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: rise 5s linear;
+    bottom: 40%;
+}
+  
+@keyframes rise {
+    0% {
+        transform: translateY(0) scale(0.6);
+    }
+    100% {
+        transform: translateY(-300px) scale(1);
+        opacity: 0.3;
+        
+    }
+}
+  

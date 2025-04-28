@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+
+}
+.title{
+    color: white;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+
+}   
+.onSuccess{
+    display: none; 
+}
+
+#scene {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#rock {
+    position: absolute;
+    width: 80px;
+    bottom: 0%;
+    left: 40%;
+    cursor: grab;
+    z-index: 1;
+}
+
+#monster-area {
+    position: absolute;
+    top: 50%; 
+    right: 22%;
+    width: 200px;
+    height: 300px; 
+
+}
+
+.overlay{
+    position: absolute;
+    top: -10%;
+    right: 70%; 
+    width: 17%;
+    height: 100%;
+    background: radial-gradient(rgba(248, 228, 154, 0.366), transparent 80%);
+    transform: skew(30deg, 20deg);
+}
+
