@@ -1,4 +1,6 @@
 body {
+    font-family: 'Merriweather';
+    font-size: 20px;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -7,13 +9,19 @@ body {
     background-color: rgb(119, 44, 9);
 }
 .title{
-    width: 100%;
-    text-align: center;
-    size: 30px;
+    max-width: 60ch;
+    text-align: left;
+    line-height: 1.6;
+    font-family: 'Merriweather', serif;
     z-index: 10;
+    padding: 1em;
 }
 a{
     color: aliceblue;
+}
+
+a:hover{
+    color: rgb(60, 154, 235);
 }
 
 .scene{
@@ -35,7 +43,7 @@ a{
     border-radius: 50%;
     pointer-events: none;
     animation: rise 5s linear;
-    bottom: 40%;
+    bottom: 20%;
 }
   
 @keyframes rise {
